@@ -1,0 +1,26 @@
+td,
+th {
+  border: 1px solid rgb(41, 47, 58) !important;
+}
+
+table { 
+border-radius: 30px!important;
+}
+
+th{ 
+  background-color: #83C4BD !important
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+    
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+ 
+
+.grid { 
+display: grid; 
+grid-template-columns: repeat(3, 1fr);
+}
